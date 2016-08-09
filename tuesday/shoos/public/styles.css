@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+label {
+  color: white;
+}
+
+div {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  max-width: 400px;
+}

@@ -1,0 +1,6 @@
+1. create files and directories
+2. create models and specs folder and files within them
+3. set up test 
+4. create method within class model to pass the test
+5. set up controller 
+6. create routes within controller

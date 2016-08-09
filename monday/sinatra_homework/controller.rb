@@ -24,8 +24,22 @@ get('/address') do
 end
 
 
+# get( '/upcase/:string') do
+#   word_formatter = WordFormatter.new()
+#   return word_formatter.upcase( params[:string] )
+# end
+
+
  get('/camel_case/:string') do
    result = WordFormatter.new(params[:string])
    @camel_case = result.camel_case()
    erb(:result)
  end
+
+
+ # get('/camelcase/:string') do
+content_type( :json )
+word_formatter = WordFormatter.new()
+result = {
+  word: word
+}

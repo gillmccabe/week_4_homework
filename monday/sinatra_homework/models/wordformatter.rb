@@ -9,7 +9,9 @@ class WordFormatter
   end
 
   def camel_case()
-    @string.split.map.with_index { |x,i| i == 0 ? x : x.capitalize  }.join
+    # @string.split.map.with_index { |x,i| i == 0 ? x : x.capitalize  }.join
+    new_word = string.split( ' ' ).map { |word| word.capitalize! }
+    return new_word.join('')
   end
 
 
