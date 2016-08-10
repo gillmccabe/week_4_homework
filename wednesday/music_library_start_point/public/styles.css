@@ -1,0 +1,57 @@
+body {
+        background-image: url("http://wrightrobinson.co.uk/wp-content/uploads/2014/01/music_notes_stock_by_bassgeisha-d3h9mpv.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 440px 320px;
+        background-size: 60%;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 55px;
+}
+
+h2 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  
+}
+
+label {
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  width: 900px;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+form {
+  width: 550px;
+  height:35px;
+}
